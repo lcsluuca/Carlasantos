@@ -3,7 +3,6 @@ import React from 'react';
 import { EXPERT_INFO, HERO_IMAGE, BIO_PHOTOS, RESULTS_GALLERY, TRUST_BENEFITS, STEPS } from './constants';
 import Button from './components/Button';
 import Gallery from './components/Gallery';
-// Added MessageCircle to the imports from lucide-react
 import { Instagram, MapPin, ChevronRight, CheckCircle2, MessageCircle } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -40,11 +39,9 @@ const App: React.FC = () => {
 
           {/* Coluna da Imagem */}
           <div className="order-1 md:order-2 relative group">
-            {/* Decoração de Fundo */}
             <div className="absolute -bottom-8 -left-8 w-64 h-64 bg-emerald-50 rounded-full -z-10 blur-3xl opacity-60"></div>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] border border-slate-100 rounded-[3rem] -z-10 hidden md:block"></div>
             
-            {/* Frame da Foto */}
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] shadow-2xl premium-shadow ring-8 ring-white">
               <img 
                 src={HERO_IMAGE} 
@@ -53,7 +50,6 @@ const App: React.FC = () => {
               />
             </div>
             
-            {/* Tag Flutuante */}
             <div className="absolute -bottom-6 right-6 md:-right-10 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-3 animate-bounce-slow">
               <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
                 <CheckCircle2 className="w-6 h-6 text-emerald-600" />
