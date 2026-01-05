@@ -1,0 +1,7 @@
+{
+  "name": "Carla Santos - Ortodontia com Propósito",
+  "description": "Landing page premium para a Dra. Carla Santos, focada em conversão para agendamento de consultas via WhatsApp.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
